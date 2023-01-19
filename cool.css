@@ -1,94 +1,247 @@
 *{
+
 	margin:0%;
+
 	padding:0%;
+
 	font-family:monospace;
+
 	background-color:;
+
 	background-attachment:fixed;
+
 }
 
 body{
+
 		background-color:silver;
+
 		background-image:url("sbg.png");
+
 		background-size:cover;
+
 		background-position:center;
+
 		position:relative;
+
+		align-items:center;
+
+		
+
+		
+
 }		
 
-
-
 h1{
+
 	padding-left:32%;
+
 	background-color:#88808080;
+
 	font-family:monospace;
+
 	height:auto;
+
 	width:auto;
+
 	text-decoration-color:red;
+
 	opacity:100%;
-	padding-top:5px;
-	padding-bottom:5px;
-	margin-bottom:-2%;
+
+	padding:5px;
+
+	text-align:center;
+
+	border-bottom:2px solid #ffcccf;
+
 	
+
 }
 
+.devin {
+
+		border:2px blue solid;
+
+		border-radius:12px;
+
+}
 
 h1 p b{
+
 	color:#ffcccf;
+
 }
 
 ul li{
+
 	list-style-type:none;
+
 	display:inline-block;
-	margin-left:15%;
-	margin-right:-5%;
-	margin-top:2%;
+
+	margin-top:32px;
+
 	padding:1%;
+
 	background-color:#88808080;
+
 	font-style:normal;
-	font-stretch:;
-	font-weight:bolder;
+
+	font-size:35px;
+
 	color:#ffcccf;
+
 	backface-visibility:15%;
+
+	boder:2px #88808080 solid;
+
+	border-radius:14px;
+
+	
+
 }
 
 m{
-	list-style:lower-greek;
+
 	display:inline-block;
-	margin-top:1%;
+
+	margin-top:-5%;
+
 	padding:1px;
+
 	background-color:#ffcccf;
+
 	width:100%;
+
 	background-opacity:5%;
+
 }
-m2{list-style:lower-greek;
-	display:inline-block;
-	margin-top:%;
-	padding:1px;
-	background-color:#ffcccf;
-	width:100%;
-	background-opacity:5%;
+
+.ftrr{
+
+		background-color:#333;
+
+		color:white;
+
+		text-align:center;
+
+		padding:25px;
+
+		margin-top:66px;
+
+		font-size:5px;
 
 }
 
 	
+
+}
+
 	//----------------------------\\{}
+
 	
+
 div{
+
 	margin:5%;
+
 	color:#ffcccf;
+
 	
+
 }
 
 sw{
+
 	color:white;
+
 	background-color:blue;
+
 	
+
 }
 
 sw swh{
+
 		font-size:large;
+
 		
+
 }
 
 bl{
+
 	color:black;
+
 }
+
+               		/* Vertical Scroll cardz */
+
+.wrapper {
+
+	max-height:100%x;
+
+	height:100%;
+
+	border:1px solid #ddd;
+
+	display:flex;
+
+	overflow-x:auto;
+
+	padding:5px;
+
+}
+
+.wrapper ::webkit-scrollbar{
+
+	width:20px;
+
+}
+
+.wrapper .txt {
+
+	min-width:360px;
+
+	height:500px;
+
+	text-align:center;
+
+	line-height:auto;
+
+	background-color:#88808080;
+
+	margin-right:6px;
+
+	margin-left:6px;
+
+	margin-top:5px;
+
+	margin-bottom:5px;
+
+	padding:12px;
+
+	font-size:medium;
+
+	boder:2px #88808080 solid;
+
+	border-radius:18px;
+
+	
+
+	
+
+}
+
+.wrapper .txt .a{
+
+			boder:2px #88808080 solid;
+
+			border-radius:14px;
+
+}
+
+ 
+
+		
+
+		
